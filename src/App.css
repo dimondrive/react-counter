@@ -1,0 +1,35 @@
+.App{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+button{
+    background: transparent;
+    border: 2px solid transparent;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: all 0.05s ease-in-out;
+    text-align: center;
+}
+.plus{
+    color: #fff;
+    background-color: #e63946;
+    box-shadow: 0 4px 0 darken(#e63946, 10%);
+      border: 1px solid darken(#e63946, 15%);
+}
+.minus{
+    background-color: #2a9d8f;
+    color: #fff;
+    box-shadow: 0 4px 0 darken(#e63946, 10%);
+    border: 1px solid darken(#e63946, 15%);
+}
+button:hover{
+    transform: translateY(-2px);
+}
+button:active{
+    transform: translateY(2px);
+    box-shadow: none;
+}
